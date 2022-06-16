@@ -13,8 +13,8 @@
      */
 
     var person = {
-        firstName : 'Jugger',
-        lastName : 'Knot'
+        firstName : 'Jigger',
+        lastName : 'Knot',
     }
     console.log(person.firstName);
     console.log(person.lastName);
@@ -86,7 +86,7 @@
             author:
                 {
                     firstName: "Alvin",
-                    lastName: "Aawesome"
+                    lastName: "Awesome"
                 }
         },
         {
@@ -100,7 +100,7 @@
             title: "The C Book",
             author:
                 {
-                    firstName: "claderon",
+                    firstName: "Calderon",
                     lastName: "Cranks"
                 }
         },{
@@ -177,8 +177,8 @@
         }
         bonusBookList.push(book);
     }
-    createBook("A Brand New Book", "Zach", "Attack");
-    createBook("Double Check It Works", "Common", "Sense");
+    createBook("Ember War", "Richard", "Fox");
+    createBook("Eyes of the Dragon", "Stephen", "King");
     console.log(bonusBookList[0]);
 
     function showBookInfo(book) {
