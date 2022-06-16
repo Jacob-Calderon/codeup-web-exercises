@@ -89,7 +89,5 @@ function pluto() {
 
 //     console.log('Finding and logging the index of "Earth" in the planets array.');
 
-function 'earth' (){
-    planets.alert ('earth'); for (var i = 0; i <planets.length; i++);
-    console.log('earth')
-}
+    planets.indexOf ('earth')
+
