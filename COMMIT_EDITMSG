@@ -1,0 +1,42 @@
+
+flexbox-fundamentals-exercise
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch arrays
+# Your branch is up to date with 'origin/arrays'.
+#
+# Changes to be committed:
+#	new file:   CSS/flexbox-fundamentals-exercise.css
+#	new file:   CSS/messages.css
+#	new file:   CSS/style.css
+#	new file:   CSS/twitter.css
+#	renamed:    Arrays.html -> html/Arrays.html
+#	new file:   html/CSSPRact.html
+#	renamed:    FromPract.html -> html/FromPract.html
+#	renamed:    break_and_continue.html -> html/break_and_continue.html
+#	renamed:    conditionals.html -> html/conditionals.html
+#	new file:   html/flexbox-fundamentals-exercise.html
+#	renamed:    forloops.html -> html/forloops.html
+#	renamed:    function.HTML.html -> html/function.HTML.html
+#	renamed:    manioulating_arrays.html -> html/manioulating_arrays.html
+#	new file:   html/messages.html
+#	renamed:    js/objects.html -> html/objects.html
+#	renamed:    planet array string.html -> html/planet array string.html
+#	renamed:    practloops.html -> html/practloops.html
+#	renamed:    prectHTML.html -> html/prectHTML.html
+#	new file:   html/twitter.html
+#	new file:   html/welcome.html
+#	renamed:    while.html -> html/while.html
+#	renamed:    Condtionals.js -> js/Condtionals.js
+#	renamed:    array.js -> js/array.js
+#	renamed:    break_and_continue.js -> js/break_and_continue.js
+#	renamed:    forloops.js -> js/forloops.js
+#	renamed:    functions.js -> js/functions.js
+#	renamed:    manipulating_arrays.js -> js/manipulating_arrays.js
+#	renamed:    objects.js -> js/objects.js
+#	renamed:    planet string.js -> js/planet string.js
+#	renamed:    practloops.js -> js/practloops.js
+#	renamed:    while.js -> js/while.js
+#	deleted:    welcome.html
+#
