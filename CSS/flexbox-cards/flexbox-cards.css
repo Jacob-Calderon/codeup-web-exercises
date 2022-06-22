@@ -9,7 +9,7 @@ html {
 body {
     font-family: sans-serif;
     margin: 0;
-    background-color: #b4d455;
+    background-color: #050700;
 }
 
 a {
@@ -17,9 +17,10 @@ a {
 }
 
 .container {
-    max-width: 750px;
+    min-width: 750px;
     margin: 0 auto;
     /* TODO: Make this a flex container and align it's items to the center*/
+    display: flex; align-items: center;
 }
 
 .card {
@@ -29,11 +30,12 @@ a {
     border-radius: 4px;
     text-align: center;
     /*  TODO: Change this flex items basis to 100% of the page  */
+    flex-basis: 100%;
 }
 
 .card-title {
     text-transform: uppercase;
-    color: white;
+    color: #07ff02;
     letter-spacing: 2px;
     text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
