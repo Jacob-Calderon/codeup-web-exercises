@@ -28,14 +28,14 @@ flexbox-fundamentals-exercise
 #	new file:   html/twitter.html
 #	new file:   html/welcome.html
 #	renamed:    while.html -> html/while.html
-#	renamed:    Condtionals.js -> js/Condtionals.js
-#	renamed:    array.js -> js/array.js
+#	renamed:    condtionals.js -> js/condtionals.js
+#	renamed:    iterating.js -> js/iterating.js
 #	renamed:    break_and_continue.js -> js/break_and_continue.js
-#	renamed:    forloops.js -> js/forloops.js
+#	renamed:    for_loops.js -> js/for_loops.js
 #	renamed:    functions.js -> js/functions.js
-#	renamed:    manipulating_arrays.js -> js/manipulating_arrays.js
+#	renamed:    planets-iterating.js -> js/planets-iterating.js
 #	renamed:    objects.js -> js/objects.js
-#	renamed:    planet string.js -> js/planet string.js
+#	renamed:    planets-string.js -> js/planets-string.js
 #	renamed:    practloops.js -> js/practloops.js
 #	renamed:    while.js -> js/while.js
 #	deleted:    welcome.html
