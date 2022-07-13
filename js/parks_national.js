@@ -1,1 +1,3 @@
-// document.body.style.backgroundImage = "url(rangerpark.jpeg)";
+const grandparent = document.getElementById("grandparent-id")
+  
+grandparent.style.backgroundColor = "#33FFB0"
