@@ -5,12 +5,13 @@
     <title>First Mapbox Map</title>
     <!-- Mapbox CSS -->
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    <link href="../CSS/mapbox-stylesheet.css">
     <!-- Custom CSS -->
     <style>
         #map {
             /* the width and height may be set to any size */
             width: 100%;
-            height: 400px;
+            height: 500px;
         }
     </style>
 </head>
@@ -24,10 +25,11 @@
 <button id="zoom-in">Zoom In</button>
 <button id="drop-marker">Drop Marker</button>
 <script src="../js/keys.js"></script>
+<script src="../js/maps.js"></script>
 <!-- Mapbox JS -->
 
 <!-- Custom JS -->
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+<script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
 <script src="../js/mapbox-geocoder-utils.js"></script>
 <script src='../js/maps.js'></script>
 <script>
@@ -70,19 +72,20 @@
             map.setZoom(currentZoom);
         });
 
-        document.querySelector("#drop-marker").addEventListener("click", function (event) {
-            // add a popup to this
-            let popup = new mapboxgl.Popup();
-            popup.setLngLat([-98, 28])
-            popup.setHTML("<h1>Great Scott</h1><gif src='creature'>")
+        document.querySelector("#drop-marker").addEventListener("click",
+            function (event) {
+                // add a popup to this
+                let popup = new mapboxgl.Popup();
+                popup.setLngLat([90, 45])
+                popup.setHTML("<h1>Great Scott</h1><img src=../gif/creature.webp>")
 
-            let marker = new mapboxgl.Marker();
+                let marker = new mapboxgl.Marker();
 
-            marker.setPopup(popup);
-            marker.setLngLat([-98, 28]);
-            marker.addTo(map);
+                marker.setPopup(popup);
+                marker.setLngLat([-98, 28]);
+                marker.addTo(map);
 
-        });
+            });
 
     })();
 

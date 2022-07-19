@@ -3,7 +3,7 @@ a:hover {color: deepskyblue}
 
 nav {
     display: flex;
-    background-color: grey;
+    background-color: deeppink;
     align-items: center;
 }
 #logo{
@@ -19,3 +19,5 @@ nav {
 .nav-icon {
     padding: 1em;
 }
+
+

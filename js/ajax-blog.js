@@ -23,7 +23,23 @@ for (let i = 0; i < blog.length ; i++) {
 tableBody.innerHTML = html
 
     }
+         // function sayHello(name) {
+         //     return 'Hello, ' + name + '!';
+         // }
+         // const sayHello = (name) => `Hello, ${name}!`
 
+         // var myOutput = originalString + " is an example of " + description + " thinking.";
+         // var myOutput = '${originalString}' + ' is an example of " + '${description}' + ' thinking.';
+         // let myOutput = `${originalString} is an example of ${description} thinking.`;
+         // let myOutput = '${originalString} is an example of ${description} thinking.'
+         // var myOutput = originalString + " is an example of " + description + " thinking."
+         let numbers = [1, 2, 3, 4, 5];
+         numbers.map(n => n * 3)
+
+
+
+
+         console.log(numbers)
 })})
 
 
