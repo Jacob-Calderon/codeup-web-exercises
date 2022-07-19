@@ -1,7 +1,8 @@
 'use strict'
 //  this is a setting token
 
-mapboxgl.accessToken = mapBoxToken;
+
+// mapboxgl.accessToken = mapBoxToken;
 
 // creat the map using a Div with map ID
             const map =  mapboxgl.Map({
@@ -11,7 +12,7 @@ mapboxgl.accessToken = mapBoxToken;
             zoom: 10, // starting zoom
             });
 // let resturants = [];
-let info = await getLocationInfoFromAddress("apetitos");
+let info = getLocationInfoFromAddress("apetitos");
 push(info)
 
 //Captures where user double clicks, still zooms..
@@ -31,6 +32,7 @@ let onStartMarkers = allMarkers.forEach( (current)=>{
     let popup = new mapboxgl.Popup().setHTML('<h1>' + current.name + '</h1>' + '<p>' + current.description + '</p>')
     new mapboxgl.Marker().setLngLat(current.lngLat).addTo(map).setPopup(popup)
 })
+
 
 
 addressSubmit.addEventListener("click",
