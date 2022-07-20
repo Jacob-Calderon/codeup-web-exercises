@@ -1,7 +1,8 @@
 
-var userInput = document.getElementById("user-input")
-var button= document.getElementById("brick-btn")
-
+var userInput = document.querySelector('#user-input')
+    console.log(userInput)
+var button= document.querySelector('#brick-btn')
+    console.log(button)
 // fetch(`https://api.github.com/users/jacob-calderon/events`, {headers: {'Authorization': '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'}})
 
 
@@ -19,6 +20,7 @@ function action() {
         console.log(users);
 //     });
     }).catch(error => console.error(error));
+
 }
 button.addEventListener("click", action)
     
