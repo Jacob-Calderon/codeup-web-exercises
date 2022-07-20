@@ -24,3 +24,18 @@ function action() {
 }
 button.addEventListener("click", action)
     
+{
+    return fetch(`https://api.github.com/users/${userInput.value}/events/public`, options
+    ).then(function(response) {
+        return response.json();
+        
+    }).then (function (events) {
+        for (let i =0; i < events.length; i++ )
+            if(events[i]).type === "pushEvent";{
+                return events[i].created.at;
+        }
+    });
+        
+
+
+}
